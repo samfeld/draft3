@@ -4,9 +4,9 @@ body{
     text-align: center;
     margin: 1%;
     line-height:1.15;
-    font-family: 'Varela Round', sans-serif;
+    font-family: "Assistant", 'Varela Round', sans-serif;
 }
-.main_page{
+#main_page{
     background-image: url("images/northshore.jpeg");
 }
 nav{

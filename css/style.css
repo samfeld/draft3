@@ -7,7 +7,7 @@ body{
     font-family: "Assistant", 'Varela Round', sans-serif;
 }
 #main_page{
-    background-image: url("images/northshore.jpeg");
+    background-image: url("../images/north_shore.jpeg");
     background-repeat: no-repeat;
 }
 nav{

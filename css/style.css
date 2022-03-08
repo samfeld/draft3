@@ -8,6 +8,7 @@ body{
 }
 #main_page{
     background-image: url("images/northshore.jpeg");
+    background-repeat: no-repeat;
 }
 nav{
     background: #c2dde6;
@@ -131,6 +132,10 @@ footer {
   }
 
   @media screen and (min-width: 900px){
+    .trails_images_container{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
   }
 
  

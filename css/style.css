@@ -6,10 +6,7 @@ body{
     line-height:1.15;
     font-family: "Assistant", 'Varela Round', sans-serif;
 }
-#shore_line{
-    background-image: url("../images/north_shore.jpeg");
-    background-repeat: no-repeat;
-}
+
 nav{
     background: #c2dde6;
     justify-content: space-around;
@@ -135,6 +132,10 @@ footer {
     .trails_images_container{
         flex-wrap: wrap;
         flex-direction: row;
+    }
+    #shore_line{
+        background-image: url("../images/north_shore.jpeg");
+        background-repeat: no-repeat;
     }
   }
 

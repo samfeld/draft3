@@ -4,7 +4,7 @@ body{
     text-align: center;
     margin: 1%;
     line-height:1.15;
-    font-family: "Assistant", 'Varela Round', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 nav{
@@ -137,6 +137,23 @@ footer {
         background-image: url("../images/north_shore.jpeg");
         background-repeat: no-repeat;
     }
+    body{
+        font-family: "Assistant", 'Varela Round', sans-serif;
+    }
+    #Chicago {
+        animation: chicago 3s;
+    }
+    @keyframes chicago{
+       from{transform: translateX(0%);} 
+        to{transform: translateX(100%);}
+        from{opacity:0;}
+        to{opacity:1;}
+    }
   }
 
+  @media screen and (prefers-reduced-motion){
+      #Chicago{
+          animation: none;
+      }
+  }
  

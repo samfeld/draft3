@@ -131,7 +131,8 @@ footer {
   @media screen and (max-width: 900px){
     .trails_images_container{
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
+        grid-template-columns: 1;
     }
     #shore_line{
         background-image: url("../images/north_shore.jpeg");
